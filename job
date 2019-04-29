@@ -1,0 +1,7 @@
+#!/bin/bash
+
+touch /tmp/job.txt
+
+echo "########## Next Job Execution ##########" >> /tmp/job.txt
+date >> /tmp/job.txt
+ping 192.168.1.254 -c 5 >> /tmp/job.txt
