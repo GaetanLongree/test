@@ -1,6 +1,6 @@
 #!/bin/bash
 
-touch /tmp/job.txt
+touch output.txt
 
-date >> /tmp/job.txt
-ping 8.8.8.8 -c 100 >> /tmp/job.txt
+date >> output.txt
+ping 8.8.8.8 -c 100 >> output.txt
