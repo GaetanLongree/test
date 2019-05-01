@@ -3,4 +3,4 @@
 touch result.txt
 
 date >> result.txt
-ping 8.8.8.8 -c 100 >> result.txt
+ping 8.8.8.8 -c 1000 >> result.txt
