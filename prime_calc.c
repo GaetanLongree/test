@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
 void main()
@@ -23,5 +24,5 @@ void main()
     end = clock();
     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
     fprintf(file, "Total time taken: %f\n", cpu_time_used);
-    getchar();
+    exit(0);
 }
